@@ -983,7 +983,7 @@ External Setpoint Generation:
 		</DataType>
 	</DataTypes>
 	<Project GUID="{15B19755-1F5E-40DC-80BA-F2CFA02CC9D5}" Name="SVLS_MOT" PrjFilePath="..\..\SVLS_MOT\SVLS_MOT.plcproj" TmcFilePath="..\..\SVLS_MOT\SVLS_MOT.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{0A500C55-62F7-E133-524B-CA4F3F6E001D}" TmcPath="SVLS_MOT\SVLS_MOT.tmc">
+		<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{FFB10DBE-16A1-764B-2939-E9FDAAFF41C2}" TmcPath="SVLS_MOT\SVLS_MOT.tmc">
 			<Name>SVLS_MOT Instance</Name>
 			<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 			<Vars VarGrpType="8" ContextId="2" AreaNo="36">
@@ -1008,6 +1008,11 @@ External Setpoint Generation:
 			</Vars>
 			<Vars VarGrpType="2" ContextId="2" AreaNo="33">
 				<Name>PlcTask Outputs</Name>
+				<Var>
+					<Name>PRG_Main.fbHController.nEncoderCounts</Name>
+					<Comment><![CDATA[ nm/count]]></Comment>
+					<Type>ULINT</Type>
+				</Var>
 				<Var>
 					<Name>PRG_Test.fbHController_Test.nDetAngleEncoderState1_Test1</Name>
 					<Type>WORD</Type>
@@ -1034,11 +1039,6 @@ External Setpoint Generation:
 				<Var>
 					<Name>PRG_Main.fbDetYH.fbDriveVirtual.MasterAxis.PlcToNc</Name>
 					<Type GUID="{96B75FEB-2D84-43BE-A3EC-D9A681F27D52}" Namespace="MC">PLCTONC_AXIS_REF</Type>
-				</Var>
-				<Var>
-					<Name>PRG_Main.fbHController.nEncoderCounts</Name>
-					<Comment><![CDATA[ nm/count]]></Comment>
-					<Type>ULINT</Type>
 				</Var>
 				<Var>
 					<Name>Main.M1.Axis.PlcToNc</Name>
@@ -1580,11 +1580,6 @@ External Setpoint Generation:
 			<OwnerB Name="TINC^SVLS_MOTION SAF^Axes^M8_Det_Y_H">
 				<Link VarA="ProductionPlcTask Inputs^Main.M8.Axis.NcToPlc" VarB="Outputs^ToPlc"/>
 				<Link VarA="ProductionPlcTask Outputs^Main.M8.Axis.PlcToNc" VarB="Inputs^FromPlc"/>
-				<Link VarA="ProductionPlcTask Outputs^PRG_Main.fbHController.nEncoderCounts" VarB="Enc^Inputs^In^nDataIn1"/>
-			</OwnerB>
-			<OwnerB Name="TIPC^SVLS_MOT^SVLS_MOT Instance">
-				<Link VarA="ProductionPlcTask Inputs^Main.M8.nRawEncoderULINT" VarB="ProductionPlcTask Outputs^PRG_Main.fbHController.nEncoderCounts" AutoLink="true"/>
-				<Link VarA="ProductionPlcTask Outputs^PRG_Main.fbHController.nEncoderCounts" VarB="ProductionPlcTask Inputs^Main.M8.nRawEncoderULINT" AutoLink="true" PeerAutoLink="true"/>
 			</OwnerB>
 		</OwnerA>
 	</Mappings>

@@ -58,15 +58,19 @@ IF bInit THEN
     Main.M8.nEnableMode := ENUM_StageEnableMode.DURING_MOTION;
 END_IF
 
-PRG_DET_Z_EPS();
+//PRG_DET_Z_EPS();
 
 fbDetYAngle(stMotionStage:=Main.M1);
-fbHController();
+//fbHController();
 fbDetYH(stMotionStage:=Main.M8);
 fbDetZ(stMotionStage:=Main.M2);
 fbGraY(stMotionStage:=Main.M3);
 
 ]]></ST>
     </Implementation>
+    <LineIds Name="PRG_Main">
+      <LineId Id="3" Count="32" />
+      <LineId Id="2" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>
