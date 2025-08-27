@@ -8,7 +8,7 @@
     <WriteProductVersion>false</WriteProductVersion>
     <GenerateTpy>false</GenerateTpy>
     <Name>SVLS_MOT</Name>
-    <ProgramVersion>3.1.4026.15</ProgramVersion>
+    <ProgramVersion>3.1.4026.17</ProgramVersion>
     <Application>{9bbdba73-a4f3-4f47-8782-6bc087c9a6b9}</Application>
     <TypeSystem>{ca18ef81-31dc-4ea1-9374-d96176155149}</TypeSystem>
     <Implicit_Task_Info>{998f0a09-43e7-4097-9591-2671ccbfa752}</Implicit_Task_Info>
@@ -151,16 +151,16 @@
   </ItemGroup>
   <ItemGroup>
     <PlaceholderResolution Include="LCLS General">
-      <Resolution>LCLS General, 2.11.0 (SLAC)</Resolution>
+      <Resolution>LCLS General, 2.12.0 (SLAC)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="lcls-twincat-math">
       <Resolution>lcls-twincat-math, 1.0.0 (SLAC - LCLS)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="lcls-twincat-motion">
-      <Resolution>lcls-twincat-motion, 4.2.0 (SLAC)</Resolution>
+      <Resolution>lcls-twincat-motion, 2.2.5 (SLAC)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="PMPS">
-      <Resolution>PMPS, 3.3.0 (SLAC - LCLS)</Resolution>
+      <Resolution>PMPS, 3.4.1 (SLAC - LCLS)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="SysDir">
       <Resolution>SysDir, 3.5.17.0 (System)</Resolution>
@@ -172,13 +172,13 @@
       <Resolution>Tc2_EtherCAT, 3.5.1.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_IoFunctions">
-      <Resolution>Tc2_IoFunctions, 3.4.4.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_IoFunctions, 3.4.5.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_Math">
-      <Resolution>Tc2_Math, 3.4.4.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_Math, 3.5.1.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_MC2">
-      <Resolution>Tc2_MC2, 3.3.65.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_MC2, 3.3.69.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_ModbusSrv">
       <Resolution>Tc2_ModbusSrv, 3.5.1.0 (Beckhoff Automation GmbH)</Resolution>
@@ -190,7 +190,7 @@
       <Resolution>Tc2_Standard, 3.4.5.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_System">
-      <Resolution>Tc2_System, 3.6.4.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc2_System, 3.9.1.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc2_TcpIp">
       <Resolution>Tc2_TcpIp, 3.4.2.0 (Beckhoff Automation GmbH)</Resolution>
@@ -198,17 +198,14 @@
     <PlaceholderResolution Include="Tc2_Utilities">
       <Resolution>Tc2_Utilities, 3.9.2.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
-    <PlaceholderResolution Include="Tc3_DynamicMemory">
-      <Resolution>Tc3_DynamicMemory, 1.1.4.0 (Beckhoff Automation GmbH)</Resolution>
-    </PlaceholderResolution>
     <PlaceholderResolution Include="Tc3_EventLogger">
-      <Resolution>Tc3_EventLogger, 3.3.11.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc3_EventLogger, 3.3.13.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc3_IPCDiag">
-      <Resolution>Tc3_IPCDiag, 1.2.1.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc3_IPCDiag, 1.2.2.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc3_JsonXml">
-      <Resolution>Tc3_JsonXml, 3.4.5.0 (Beckhoff Automation GmbH)</Resolution>
+      <Resolution>Tc3_JsonXml, 3.4.7.0 (Beckhoff Automation GmbH)</Resolution>
     </PlaceholderResolution>
     <PlaceholderResolution Include="Tc3_Module">
       <Resolution>Tc3_Module, 3.4.5.0 (Beckhoff Automation GmbH)</Resolution>
