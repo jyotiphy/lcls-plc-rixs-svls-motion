@@ -68,9 +68,5 @@ fbGraY(stMotionStage:=Main.M3);
 
 ]]></ST>
     </Implementation>
-    <LineIds Name="PRG_Main">
-      <LineId Id="3" Count="32" />
-      <LineId Id="2" Count="0" />
-    </LineIds>
   </POU>
 </TcPlcObject>
